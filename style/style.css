@@ -1,0 +1,169 @@
+body, html {
+    height: 100%;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+
+  }
+  /*SLIKA*/
+  .header-image {
+    background-image: url('../img/ramovi.jpg');
+    height: 70%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: static;
+    
+  }
+  .header{
+      font-family: 'cursive', 'Lucida Handwriting';
+      font-size: 50px;
+      
+      text-align: center;
+  }
+
+  /*navigacija*/
+  .menu {
+    margin: auto;
+    width: 100%;
+    background-color: rgba(255, 199, 225, 0.932);
+    float: center;
+    display: inline;
+  
+  }
+  .menu a {
+    width: 45%;
+    float: left;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+  }
+   /*kartice*/
+   .column {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 190px;
+    position: relative;
+  }
+  .card {
+    margin-top: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: relative;
+  }
+  .container {
+    padding: 0 16px;
+  }
+
+  .columnleft {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .columnright {
+    float: right;
+    width: 40%;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .row:after {
+    border: none;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#omn{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.aboutimg{
+  
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+  .aboutimg:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .leftimg{
+    float: left;
+    width: 30%;
+  
+  }
+/* linkovi tekst*/
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: rgb(245, 131, 197);
+}
+
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+.tekstovii{
+
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  margin-left: 50px;
+  margin-right: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.slikautekstu{
+
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  }
+  
+  .tekst{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    }
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: plum;
+    margin-top: 20px;
+    color: black;
+    color: plum;
+  }
+  .fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 10px;
+    text-align: center;
+    margin: 2px 2px;
+  }
